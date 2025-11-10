@@ -5,10 +5,10 @@
 		"enabled": false
 	},
 	"site": {
-		"title": "APScanner - Your Website Title",
-		"description": "Your website description for SEO",
-		"keywords": "your, keywords, here",
-		"url": "https://yourusername.github.io/apscanner/",
-		"ogImage": "https://yourusername.github.io/apscanner/images/og-image.jpg"
+		"title": "APScanner - Advanced AP Score Analysis Tool",
+		"description": "Comprehensive AP exam score analysis and college credit evaluation tool for students and educators",
+		"keywords": "AP scores, college credit, advanced placement, exam analysis, education tool",
+		"url": "https://sunnyckc.github.io/apscanner-static/",
+		"ogImage": "https://sunnyckc.github.io/apscanner-static/favicon.svg"
 	}
 }
