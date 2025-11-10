@@ -1,0 +1,14 @@
+{
+	"analytics": {
+		"googleAnalyticsId": "G-XXXXXXXXXX",
+		"facebookPixelId": "123456789012345",
+		"enabled": true
+	},
+	"site": {
+		"title": "APScanner - Document Scanning Solutions",
+		"description": "Professional document scanning and OCR services for businesses. Fast, accurate, and secure document digitization.",
+		"keywords": "document scanning, OCR, document management, digitization, business solutions",
+		"url": "https://yourusername.github.io/apscanner/",
+		"ogImage": "https://yourusername.github.io/apscanner/images/og-image.jpg"
+	}
+}

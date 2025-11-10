@@ -1,0 +1,29 @@
+{
+	"name": "apscanner-website",
+	"version": "1.0.0",
+	"description": "Static website with Tailwind CSS for GitHub Pages",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npm run build-html && npm run build-css && npm run watch",
+		"build": "npm run build-html && npm run build-css && npm run minify-css",
+		"build-html": "node build.js",
+		"build-css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch=false",
+		"watch": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
+		"minify-css": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --minify",
+		"serve": "python3 -m http.server 8000 --directory dist",
+		"deploy": "npm run build"
+	},
+	"keywords": [
+		"tailwindcss",
+		"static-website",
+		"github-pages"
+	],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"tailwindcss": "^3.4.0",
+		"@tailwindcss/forms": "^0.5.7",
+		"@tailwindcss/typography": "^0.5.10"
+	},
+	"dependencies": {}
+}

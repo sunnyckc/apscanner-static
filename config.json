@@ -1,0 +1,14 @@
+{
+	"analytics": {
+		"googleAnalyticsId": "",
+		"facebookPixelId": "",
+		"enabled": false
+	},
+	"site": {
+		"title": "APScanner - Your Website Title",
+		"description": "Your website description for SEO",
+		"keywords": "your, keywords, here",
+		"url": "https://yourusername.github.io/apscanner/",
+		"ogImage": "https://yourusername.github.io/apscanner/images/og-image.jpg"
+	}
+}
