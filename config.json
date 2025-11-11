@@ -1,8 +1,8 @@
 {
 	"analytics": {
-		"googleAnalyticsId": "",
+		"googleAnalyticsId": "G-B8FPQL41J9",
 		"facebookPixelId": "",
-		"enabled": false
+		"enabled": true
 	},
 	"site": {
 		"title": "APScanner - Advanced AP Score Analysis Tool",
